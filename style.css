@@ -1,8 +1,17 @@
 body {
-    background-color: #ebebeb;
+    background-color: #e1e8f2;
     padding: 50px;
     align-content: center;
     text-align: center;
+}
+
+.input-card {
+
+    margin: 0 35% 0 35%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .input-container {
@@ -16,6 +25,7 @@ body {
 }
 
 .card {
+    margin-top: 50px;
     text-align: center;
     align-content: center;
     background-color: white;
@@ -134,4 +144,9 @@ body {
 
 textarea {
     white-space: pre-wrap;
+    background-color: whitesmoke;
+}
+
+input {
+    background-color: whitesmoke;
 }
