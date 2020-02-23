@@ -41,6 +41,13 @@ body {
     white-space: pre-wrap;
 }
 
+@media (max-width: 1000px) {
+
+    .main-container {
+        grid-template-columns: 1fr 1fr;
+     }
+}
+
 .card-container {
     display: grid;
     grid-template-rows: 4.5fr 1fr;
